@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JD's Timed Quiz</title>
+</head>
+<body>
+    <main>
+        <div class="header_section">
+            <header>
+                <h1>JD's Timed Coding Quiz</h1>
+            </header>
+        </div>
+        <div id="main_section">
+        <section class="timer_section_outer">
+            <div class="timer_section">
+                <h2>Timer:</h2>
+                <h2 id="timer"></h2>
+                <h3 id="message"></h3>
+                <button id="timer_start">Start Quiz</button>
+                
+            </div>
+        </section>
+        <section class="timer_section_outer" id="quizArea">
+            <div class="timer_section">
+                <h2>Quiz</h2>
+                <h2 id="tallyElement">Question <span id="question_tally"></span> out of 4.</h2>
+                <div class="question_section">
+                    <h3 id="question"></h3>
+                </div>
+                <div class="answer">
+                    <div>A) <button class="answersClass" id="a"> </button></div>
+                    <div>B) <button class="answersClass" id="b"> </buttpn> </div>
+                    <div>C) <button class="answersClass" id="c"> </button> </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        <section>
+            <div class="timer_section_outer" id="score_section" >
+                <div  class="timer_section">
+                    <h2>High Scores</h2>
+                    <h4 id="highscores">
+    
+                    </h4>
+                    <button id="reload">Start Over</button>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
